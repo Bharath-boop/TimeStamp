@@ -3,6 +3,6 @@ import indexController from '../controller/index.js'
 
 const router = express.Router()
 
-router.get('/date', indexController.date)
+router.get('/', indexController.date)
 
 export default router
